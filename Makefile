@@ -1,2 +1,2 @@
 createsuperuser:
-	docker-compose run --rm django python manage.py createsuperuser
+	docker-compose run --rm app python manage.py createsuperuser
