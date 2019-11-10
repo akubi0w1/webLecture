@@ -1,0 +1,20 @@
+{% extends 'todoApp/base.html' %}
+
+{% block content %}
+    <div>
+        <a href="javascript:history.go(-1)" class="btn btn-sub">back</a>
+    </div>
+
+    <form method="POST">{% csrf_token %}
+        <h3>Title</h3>
+        <p>{{ form.title }}</p>
+
+        <h3>Body</h3>
+        <p>{{ form.body }}</p>
+
+        <h3>Deadline</h3>
+        <p>{{ form.deadline }}</p>
+        
+        <input type="submit" class="btn btn-submit">
+    </form>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'todoApp/base.html' %}
+
+{% block content %}
+    <a href="{% url 'todo_new' %}" class="btn btn-main">new</a>
+    {% for todo in todos %}
+    <div class="item">
+        <h2><a href="{% url 'todo_detail' id=todo.pk %}">{{ todo.title }}</a></h2>
+        
+        {% if todo.is_finished %}
+            <label class="finished">完了</label>
+        {% else %}
+            <label class="unfinished">未完了</label>
+        {% endif %}
+        
+        <p>{{ todo.created_at }}</p>
+    </div>
+    {% endfor %}
+{% endblock %}

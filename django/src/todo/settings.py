@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'todo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-# pymysql.install_as_MySQLdb()
+pymysql.install_as_MySQLdb()
 
 DATABASES = {
     'default': {
