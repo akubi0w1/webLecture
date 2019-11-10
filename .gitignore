@@ -1,3 +1,5 @@
 note.md
 error.md
 .idea
+
+__pycache__/*

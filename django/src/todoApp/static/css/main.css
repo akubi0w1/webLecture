@@ -74,6 +74,10 @@ form{
     text-decoration: none;
 }
 
+.app-name {
+    margin-block-start: .5em;
+}
+
 .container{
     padding: 15px 30px;
     box-sizing: border-box;
