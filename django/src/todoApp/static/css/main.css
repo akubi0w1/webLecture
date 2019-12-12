@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    display: inline-block;
+    margin-block-start: 1.5em;
+    margin-block-end: .3em;
+}
+
+p{
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+form{
+    display: inline-block;
+}
+
+.btn{
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-main{
+    color: white;
+    background-color: #73ac49;
+
+}
+
+.btn-main:hover{
+    background-color: #507833;
+}
+
+.btn-sub{
+    color: white;
+    background-color: #8f8f8f;
+
+}
+
+.btn-sub:hover{
+    background-color: #686868;
+}
+
+.btn-submit{
+    color: white;
+    background-color: #5cabf4;
+}
+
+.btn-submit:hover{
+    background-color: #4988c3;
+}
+
+.btn-danger{
+    color: white;
+    background-color: #e24638;
+}
+
+.btn-danger:hover{
+    background-color: #9e3127;
+}
+
+.header{
+    background-color: #73ac49;
+    padding: 0px 40px;
+}
+
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.app-name {
+    margin-block-start: .5em;
+}
+
+.container{
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+.item{
+    border-bottom: 2px solid #ddd;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+.item a:hover{
+    color: #73ac49;
+}
+
+label{
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.finished{
+    background-color: #5cabf4;
+    color: white;
+}
+
+.unfinished{
+    background-color: #e24638;
+    color: white;
+}
+
+
+.detail p{
+    padding: 0px 30px;
+}
+
+.title{
+    border-bottom: 2px solid #ddd;
+}
+
+.alert{
+    padding: 15px;
+    font-size: 1.1em;
+}

@@ -1,0 +1,17 @@
+{% extends 'todoApp/base.html' %}
+
+{% block content %}
+    <div>
+        <a href="{% url 'todo_detail' id=todo.pk %}" class="btn btn-sub">back</a>
+    </div>
+    <div class="alert">
+        <b>{{ todo.title }}</b>を削除します．<br>
+        よろしいですか
+    </div>
+    <div>
+        <form method="POST">{% csrf_token %}
+            <input type="submit" value="はい" class="btn btn-danger">
+        </form>
+    </div>
+
+{% endblock %}
