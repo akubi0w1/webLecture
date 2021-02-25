@@ -3,3 +3,4 @@ error.md
 .idea
 
 __pycache__/*
+migrations/*
